@@ -9,14 +9,17 @@ html{
     margin: -2rem 4rem 0 4rem;
     
 }
-.spacing{
+.padding-side{
     padding-left:9rem ;
     padding-right: 9rem;
+   }
+.padding-up{
+    padding-top:2rem;
+    padding-bottom:6rem;
 }
 .header{
     background-color: #1F2937;
-    padding-top:2rem;
-    padding-bottom:5rem;
+    
     
 }
 .nav{
@@ -81,17 +84,74 @@ html{
     color:#3882f6;
     background-color:#f9faf8;
 }
+
 .card-section{
     background-color: #f9faf8;
     margin-top:-2rem;
 }
-.content{
+.card-section h1{
+    text-align:center;
+    font-size:36px;
+    font-weight:900;
+    color:#1f2937;
+}
+.card{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:2rem;
+    padding-top:2rem;
+}
+.card img{
+    border-radius:10px;
+}
+.card p{
+    text-align:center;
+    color:#1f2937
+}
+.quote{
     background-color:#E5E7EB;
 
 }
-.action{
+.quote p{
+    color:#1f2937;
+    font-size:36px;
+    font-style:light-italic;
+}
+.end{
+    text-align:right;
+}
+.action-section{
     background-color:#fffffe;
+}
+.action{
+    background-color:#3882f6;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:3rem;
+    margin-top:3rem;
+    border-radius:10px;
+    line-height:2px;
+}
+.action h2{
+    color:#f9faf8;
+    font-weight: 800;
+    font-size: 24px;
+}
+.action p{
+    color: #E5E7EB;
+    font-size:18px;
+}
+#border{
+    border:2px solid #f9faf8
 }
 .footer{
     background-color: #1F2937;
+    margin-bottom:-2rem;
+}
+.footer p{
+    text-align:center;
+    color:#f9faf8;
+    font-size:18px;
 }
